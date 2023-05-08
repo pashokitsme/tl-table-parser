@@ -1,0 +1,13 @@
+[package]
+name = "tl_table_parser"
+authors = ["pashokitsme"]
+description = "Parse HTML table using tl parser"
+repository = "https://github.com/pashokitsme/tl_table_parser"
+license = "MPL-2.0"
+version = "0.1.0"
+edition = "2021"
+keywords = ["tl", "html"]
+
+[dependencies]
+aho-corasick = "1.0.1"
+tl = "0.7.7"
